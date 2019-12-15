@@ -1,0 +1,42 @@
+.treatmentPage {
+  padding-top: 200px;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+}
+.treatmentPage-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 220px;
+  width: 220px;
+  margin: 30px;
+  font-size: 16px;
+  border: 2px solid rgb(42, 43, 43);
+  border-radius: 5px;
+  background-color: rgb(231, 231, 231);
+}
+.treatmentPage-button:hover {
+  transition-duration: 0.2s;
+  font-weight: bolder;
+  color: white;
+  background-color: rgb(127, 168, 166);
+  border: 3px solid rgb(1, 68, 59);
+}
+.treatmentPage-button:active {
+  border: 3px solid rgb(7, 192, 167);
+}
+.icon {
+  font-size: 30px;
+}
+.icon:hover {
+  color: white;
+}
+@media (max-width: 1500px) {
+  .treatmentPage {
+    padding-top: 400px;
+    flex-direction: column;
+    align-items: center;
+  }
+}

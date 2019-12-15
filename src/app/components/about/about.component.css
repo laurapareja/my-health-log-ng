@@ -1,0 +1,64 @@
+.aboutPage {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 80px;
+}
+.card {
+  margin-top: 150px;
+  width: 40rem;
+}
+.card-title {
+  font-weight: bolder;
+}
+.textContainer {
+  height: 230px;
+}
+.card-img-top {
+  height: 230px;
+}
+.lauraPicture {
+  width: 230px;
+  margin-left: 32%;
+}
+.homeWallpaper {
+  width: 490px;
+  margin-left: 10%;
+}
+.link-container {
+  display: flex;
+  justify-content: space-around;
+}
+.socialLink {
+  text-decoration: none;
+}
+.socialLink:hover {
+  font-weight: bolder;
+}
+
+@media (max-width: 1500px) {
+  .aboutPage {
+    flex-direction: column;
+    align-items: center;
+  }
+  .card {
+    width: 18rem;
+  }
+  .lauraPicture {
+    margin-left: 10%;
+  }
+  .homeWallpaper {
+    width: 285px;
+    margin-left: 0%;
+  }
+  .textContainer {
+    height: 520px;
+  }
+  .textContainer-laura {
+    height: 220px;
+  }
+  .link-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

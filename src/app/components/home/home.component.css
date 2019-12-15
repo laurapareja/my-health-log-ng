@@ -1,0 +1,11 @@
+.homepage {
+  display: flex;
+  justify-content: center;
+}
+.homepage_img {
+  border-radius: 10px;
+  height: 70vh;
+  margin-bottom: 50px;
+  position: relative;
+  top: 140px;
+}
